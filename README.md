@@ -1,9 +1,11 @@
 # imgflat
 
+![status](https://img.shields.io/badge/testcoverage-none-red.svg)
+![status](https://img.shields.io/badge/docs-none-red.svg)
+![status](https://img.shields.io/badge/pypi-not--released-red.svg)
+
 
 A tool for creating a flat file containing all of the images in a directory inline.
-
-
 
 ## installation
 
@@ -20,12 +22,17 @@ python setup.py install
 
 ## Usage
 
-    Usage: inline_img.py [OPTIONS]
+    Usage: imgflat [OPTIONS]
 
-      hi
+      A tool for creating a flat file containing all of
+      the images in a directory inline.
 
     Options:
       --output TEXT  output filename and extension
+      --recursive    Recurse through file system or use top
+                     level directory only
       --help         Show this message and exit.
 
+## Contributors
 
+Waylon Walker
