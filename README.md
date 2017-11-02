@@ -34,7 +34,7 @@ python setup.py install
       --help         Show this message and exit.
 
 ## example
-see example [images in example](docs/example/images in example.md)
+see example [images in example](./docs/example/images%20in%20example.md)
 
 ## Contributors
 
