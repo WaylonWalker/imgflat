@@ -1,11 +1,13 @@
 import os
 import glob
 import base64
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, PackageLoader, select_autoescape
 import click
 
-env = Environment(loader=FileSystemLoader('templates'))
-
+env = Environment(
+    loader=PackageLoader('imgflat', 'templates'),
+    autoescape=select_autoescape(['html', '.md']),
+)
 
 @click.command(help='hi')
 @click.option('--output',
