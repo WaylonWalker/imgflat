@@ -1,7 +1,7 @@
 # {{ directory }}
 
 {% for file in files %}
-## file
+## {{ file }}
 ![{{file}}][{{file}}]
 {% endfor %}
 <!-- images -->
