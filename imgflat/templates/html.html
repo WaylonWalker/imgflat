@@ -1,0 +1,6 @@
+<h1>{{ directory }}</h1>
+
+{% for file in files %}
+<h2>{{ file }}</h2>
+<img src="data:image/png;base64,{{ files[file] }}" alt="{{ file }}">
+{% endfor %}
